@@ -1,69 +1,140 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-    <title>Cuia Hoteles</title>
-  </head>
-  <body>
-    
-      <div class="jumbotron">
-        <h1>Hoteles</h1>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <title>Cuia Hoteles</title>
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <h1>Hoteles</h1>
+  </div>
+  <div class="container">
+    <div class="d-flex">
+      <div class="col-sm-4">
+        <h3>Como Funciona?</h3>
+        <p>Buscá los hoteles de acuerdo a tu preferencia</p>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Como Funciona?</h3>
-            <p>Buscá los hoteles de acuerdo a tu preferencia</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Dónde puedo reservar?</h3>
-            <p>Elegí la ciudad que te interese y luego realizá la reserva con tus datos</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Como pago?</h3>
-            <p>Utilizá tu tarjeta favorita</p>
-          </div>
+      <div class="col-sm-4">
+        <h3>Dónde puedo reservar?</h3>
+        <p>Elegí la ciudad que te interese y luego realizá la reserva con tus datos</p>
       </div>
-      <hr>
-      
-      <div class="row">
-        <div class="col-sm-3">
+      <div class="col-sm-4">
+        <h3>Como pago?</h3>
+        <p>Utilizá tu tarjeta favorita</p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="d-flex flex-wrap flex-row-reverse">
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
           <h4>Hotel Barcelona</h4>
           <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa</p>
-          <button class="btn">Reservar</button>
         </div>
-        <div class="col-sm-3">
-          <h4>Hotel Buenos Aires</h4>
-          <p>Hotel ubicado en pleno centro</p>
-          <button class="btn">Reservar</button>
-        </div>
-        <div class="col-sm-3">
-          <h4>Hotel Lima</h4>
-          <p>Hotel ubicado en pleno centro</p>
-          <button class="btn">Reservar</button>
-        </div>
-        <div class="col-sm-3">
-          <h4>Hotel Rio de Janeiro</h4>
-          <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa</p>
-          <button class="btn">Reservar</button>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
         </div>
       </div>
-      
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Buenos Aires</h4>
+          <p>Hotel ubicado en pleno centro</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Lima</h4>
+          <p>Hotel ubicado en pleno centro</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Rio de Janeiro</h4>
+          <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel La Paz</h4>
+          <p>Hotel ubicado en pleno centro</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel Madrid</h4>
+          <p>Hotel ubicado en pleno centro</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+      </div>
+      <div class="card-hotel d-flex flex-column justify-content-between">
+        <div>
+          <h4>Hotel San Pablo</h4>
+          <p>Hotel ubicado en pleno centro</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+      </div>
     </div>
-    
 
-    
-  </body>
+  </div>
+
+
+
+</body>
+
+<footer class="footer">
+  <div class="row">
+    <div class="col-sm-4 d-flex flex-column">
+      <a href="http://www.facebook.com">Facebook</a>
+      <a href="http://www.instagram.com">Instagram</a>
+      <a href="http://www.tweeter.com">Tweeter</a>
+    </div>
+    <div class="col-sm-4 d-flex flex-column">
+      <address>
+        <h3>Oficina Central</h3>
+        <p>Tucuman834, CABA, Argentina</p>
+        <p>+54911456789</p>
+        <p>contacto@guiahoteles.com</p>
+      </address>
+    </div>
+    <div class="col-sm-4 d-flex flex-column align-items-end">
+      <a href="http://www.facebook.com">Nosotros</a>
+      <a href="http://www.instagram.com">Precios</a>
+      <a href="http://www.tweeter.com">Terminos y Condiciones</a>
+      <a href="http://www.tweeter.com">contacto</a>
+    </div>
+  </div>
+</footer>
+
 </html>

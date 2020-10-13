@@ -1,0 +1,27 @@
+.jumbotron{
+    background-color: rgb(255, 196, 0);
+    color: black;
+}
+
+.footer{
+    padding: 10px 10px 0 10px;
+    background-color: rgb(255, 196, 0);
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.card-hotel{
+    /* 
+    1 indica cuanto de ancho puede ocupar 1 es que se mantenga intacta, si es 2 es el doble de ancho
+    150px es cuanto de ancho
+    al usar flex ya no tiene sentido usar la clase col 
+    */
+    flex: 1 150px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
+}
+
+.btn-reserva{
+    width: 100%;
+    
+}
